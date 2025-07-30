@@ -11,7 +11,7 @@ Installation of redis
 
 sudo yum install gcc
 wget https://github.com/valkey-io/valkey/archive/refs/tags/8.1.2.tar.gz
-tar xvzf valkey-8.1.2.tar.gz
+tar xvzf 8.1.2.tar.gz
 cd valkey-8.1.2
 make distclean      # ubuntu systems only
 make
