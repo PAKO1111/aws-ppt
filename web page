@@ -1,10 +1,10 @@
 #########################  Basic web page ##############################
 
 #!/bin/bash
-yum update -y
-yum install httpd -y
-service httpd start
-chkconfig httpd on
+sudo yum update -y
+sudo yum install httpd -y
+sudo service httpd start
+sudo chkconfig httpd on
 cd /var/www/html
 echo "<html><body>IP address of this instance: $(hostname)" > index.html
 
